@@ -35,7 +35,7 @@ function configure(config, layouts) {
 
   let layout = layouts.colouredLayout;
 
-  elasticsearch = new Elasticsearch(config.es);
+  elasticsearch = new Elasticsearch.Client(config.es);
   function_name = config.function_name;
   index = config.index;
   

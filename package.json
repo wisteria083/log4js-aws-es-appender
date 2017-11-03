@@ -1,6 +1,6 @@
 {
   "name": "log4js-aws-es-appender",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -11,7 +11,6 @@
   "private": true,
   "dependencies": {
     "log4js":"latest",
-    "log4js-extend":"latest",
-    "elasticsearch" : "latest"
+    "elasticsearch": "latest"
   }
 }
